@@ -1,0 +1,122 @@
+nav .navbar-brand {
+  /* size for brand */
+  font-size: xx-large;
+}
+
+/* font colors */
+.teal {
+  color: #41b3a3;
+}
+
+.red {
+  color: #e27d60;
+}
+
+.orange {
+  color: #e8a87c;
+}
+
+.mauve {
+  color: #c38d9e;
+}
+
+body {
+  background-color: #123c69;
+  color: #fbeec1;
+  font-family: Georgia, serif;
+  text-align: center;
+}
+
+.welcome {
+  margin: auto;
+  border-style: solid;
+  border-width: thick;
+  border-color: #41b3a3 #e27d60 #e8a87c #c38d9e;
+  border-radius: 12px;
+}
+
+/* mobile-responsive media queries */
+@media (min-width: 500px) {
+  /* homepage welcome border */
+  .welcome {
+    width: 50%;
+  }
+
+  /* the cover picture changes to 90% of the screen size on smaller screens */
+  #cover {
+    border-radius: 10px;
+    width: 50%;
+    height: auto;
+  }
+}
+@media (max-width: 499.9999px) {
+  .welcome {
+    width: 90%;
+  }
+
+  #cover {
+    border-radius: 10px;
+    width: 90%;
+    height: auto;
+  }
+}
+/* styling for images in video in bootstrap's grid containers */
+.container img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.container video {
+  width: 95%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* photo descriptions */
+.desc {
+  padding: 15px;
+  text-align: center;
+  font-weight: bold;
+  color: #c38d9e;
+}
+
+/* list styling */
+ul, .list-title {
+  text-align: left;
+}
+
+li {
+  font-size: xx-large;
+  color: #41b3a3;
+}
+
+/* table styling */
+td, th {
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid #fbeec1;
+}
+
+table {
+  margin: 10px;
+  border: 2px solid #fbeec1;
+  border-collapse: collapse;
+  text-align: center;
+  color: #fbeec1;
+}
+
+th {
+  background-color: rgba(226, 125, 96, 0.5);
+}
+
+td {
+  background-color: rgba(65, 179, 163, 0.5);
+}
+
+footer {
+  display: block;
+  padding: 25px;
+  color: #e8a87c;
+}
+
+/*# sourceMappingURL=styles.css.map */
